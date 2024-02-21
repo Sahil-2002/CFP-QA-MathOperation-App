@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-@FunctionalInterface
+
 interface Mathfunction {
     public int calculate(int a, int b);
 
