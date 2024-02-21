@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.function.Consumer;
 import java.util.function.Function;
 
 @FunctionalInterface
@@ -18,5 +20,7 @@ public class Main {
         System.out.println("Division is "+div.calculate(20, 30));
         Mathfunction mul =(a,b)-> a*b;
         System.out.println("Multiplication is "+mul.calculate(20,30));
+
+
     }
 }
